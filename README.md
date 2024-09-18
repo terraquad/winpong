@@ -11,15 +11,13 @@
 
 Blue/left player uses **W** and **S** to move up or down, red/right player uses **I** and **K**.
 
-https://github.com/user-attachments/assets/a7677e36-ca5e-4c6d-898c-e0276de956ce
-
 ## Building
 
 Dependencies:
 
 - [Zig](https://ziglang.org) master
 - [Git](https://git-scm.com)
-- An internet connection (when building for the first time)
+- An internet connection
 
 ```sh
 git clone https://github.com/terraquad/winpong.git
@@ -30,3 +28,6 @@ zig build --release=small
 # See build options
 zig build -h
 ```
+
+> [!IMPORTANT]
+> Cross-compilation currently doesn't work due to Raylib linking to system libraries (tested on Linux over WSL).
