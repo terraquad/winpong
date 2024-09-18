@@ -35,3 +35,7 @@ The build will be located in `zig-out/bin/winpong[.exe]`
 
 > [!IMPORTANT]
 > Cross-compilation currently doesn't work due to Raylib linking to system libraries (tested on Linux over WSL).
+
+## Known bugs
+
+- Window sometimes resets with halfed monitor size
