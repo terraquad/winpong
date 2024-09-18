@@ -31,5 +31,7 @@ zig build --release=small
 zig build -h
 ```
 
+The build will be located in `izg-out/bin/winpong[.exe]`
+
 > [!IMPORTANT]
 > Cross-compilation currently doesn't work due to Raylib linking to system libraries (tested on Linux over WSL).
