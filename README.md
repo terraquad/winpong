@@ -11,6 +11,8 @@
 
 Blue/left player uses **W** and **S** to move up or down, red/right player uses **I** and **K**.
 
+https://github.com/user-attachments/assets/6bb64b81-6d43-403c-97f5-ffbdbf4764d9
+
 ## Building
 
 Dependencies:
