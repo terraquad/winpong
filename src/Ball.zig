@@ -15,7 +15,7 @@ flipped_y: bool = false,
 
 const Ball = @This();
 
-pub var velocity: i16 = 8;
+pub var velocity: i16 = 10;
 
 pub fn new(size: u31) Ball {
     const win = Window.get();
