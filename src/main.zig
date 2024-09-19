@@ -1,4 +1,5 @@
 const rl = @import("raylib");
+const Size = @import("utils.zig").Size;
 const Window = @import("Window.zig");
 const Paddle = @import("Paddle.zig");
 const Ball = @import("Ball.zig");
@@ -21,7 +22,7 @@ fn drawWinnerText(left: bool) void {
 }
 
 pub fn main() !void {
-    var win = Window.new(.{ .width = 1000, .height = 1000 });
+    var win = Window.new(Size.uniform(1000));
     defer Window.destroy();
 
     var ball = Ball.new(50);
